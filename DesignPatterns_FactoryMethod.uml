@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>applications.world.hello</OriginalElement>
+  <nodes>
+    <node x="0.0" y="136.0">applications.world.hello.WordProcessor_Writer</node>
+    <node x="912.0" y="136.0">applications.world.hello.Spreadsheet_Calc</node>
+    <node x="1108.0" y="136.0">applications.world.hello.WordProcessor_Word</node>
+    <node x="563.0" y="257.0">applications.world.hello.DocumentFactory_SimpleFactory</node>
+    <node x="0.0" y="361.0">applications.world.hello.OpenOfficeDocumentFactory</node>
+    <node x="269.0" y="361.0">applications.world.hello.MicrosoftDocumentFactory</node>
+    <node x="134.5" y="257.0">applications.world.hello.ADocumentFactory</node>
+    <node x="432.00000000000006" y="136.0">applications.world.hello.Presentation_Impress</node>
+    <node x="660.0" y="136.0">applications.world.hello.Presentation_PowerPoint</node>
+    <node x="596.0" y="0.0">applications.world.hello.ADocument</node>
+    <node x="228.00000000000006" y="136.0">applications.world.hello.Spreadsheet_Excel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="applications.world.hello.MicrosoftDocumentFactory" target="applications.world.hello.ADocumentFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="393.5" y="336.0" />
+      <point x="321.25" y="336.0" />
+      <point x="62.25" y="27.0" />
+    </edge>
+    <edge source="applications.world.hello.Spreadsheet_Excel" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="320.00000000000006" y="106.0" />
+      <point x="626.0" y="106.0" />
+      <point x="-30.0" y="38.0" />
+    </edge>
+    <edge source="applications.world.hello.OpenOfficeDocumentFactory" target="applications.world.hello.ADocumentFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="124.5" y="336.0" />
+      <point x="196.75" y="336.0" />
+      <point x="-62.25" y="27.0" />
+    </edge>
+    <edge source="applications.world.hello.Presentation_Impress" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="536.0" y="116.0" />
+      <point x="646.0" y="116.0" />
+      <point x="-10.0" y="38.0" />
+    </edge>
+    <edge source="applications.world.hello.Spreadsheet_Calc" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="1000.0" y="106.0" />
+      <point x="686.0" y="106.0" />
+      <point x="30.0" y="38.0" />
+    </edge>
+    <edge source="applications.world.hello.WordProcessor_Word" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="1204.0" y="96.0" />
+      <point x="706.0" y="96.0" />
+      <point x="50.0" y="38.0" />
+    </edge>
+    <edge source="applications.world.hello.WordProcessor_Writer" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="104.0" y="96.0" />
+      <point x="606.0" y="96.0" />
+      <point x="-50.0" y="38.0" />
+    </edge>
+    <edge source="applications.world.hello.Presentation_PowerPoint" target="applications.world.hello.ADocument">
+      <point x="0.0" y="-38.0" />
+      <point x="776.0" y="116.0" />
+      <point x="666.0" y="116.0" />
+      <point x="10.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8855345911949686" x="785.0" y="220.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
