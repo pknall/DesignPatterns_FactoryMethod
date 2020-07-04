@@ -14,4 +14,9 @@ appropriate document.  An argument is passed into the document factory to specif
 Depending on which platform is used (Microsoft or OpenOffice) the appropriate document is returned when either
 "WORD_PROCESSOR", "SPREADSHEET" or "PRESENTATION" are selected.  
 
+The DocumentFactory_SimpleFactory class is an example of the Simple Factory construct (it's not a pattern).  
+
+ADocumentFactory is the Factory Method Example as it dynamically returns the correct document based on the 
+argument sent to documentFactory().
+
 
